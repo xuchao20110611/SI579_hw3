@@ -17,15 +17,17 @@ function changeColor(){
         //change the background color using JS
         square.style.background="#F08080";
         //Change the text of the color using the span id color-name
-        square.style.color="black";
+
+        document.getElementById("color-name").textContent = "#F08080";
 
 
     }
     else{
         //change the background color using JS
-        square.style.background = "green";
+        square.style.background = "#999999";
         //Change the text of the color using the span id color-name
-        square.style.color="#F08080";
+
+        document.getElementById("color-name").textContent = "#999999";
 
 
     }
